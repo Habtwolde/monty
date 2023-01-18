@@ -12,7 +12,7 @@ This is a language that contains specific instructions to manipulate data inform
 
 | Opcode | Description |
 | -------- | ----------- |
-| `push` | Pushes an element to the stack |
+| `push` | Pushes element to the stack |
 | `pall` | Prints all the values on the stack |
 | `pint` | Prints the value at the top of the stack |
 | `pop` | Removes the top element of the stack |
@@ -21,14 +21,14 @@ This is a language that contains specific instructions to manipulate data inform
 | `stack` | Sets the format of the data to a stack (LIFO) |
 | `nop` | Doesn't do anything |
 | `add` | Adds the top two elements of the stack |
-| `sub` | Subtracts the top element of the stack from the second top element of the stack |
-| `mul` | Multiplies the second top element of the stack with the top element of the stack |
-| `div` | Divides the second top element of the stack by the top element of the stack |
-| `mod` | Computes the rest of the division of the second top element of the stack by the top element of the stack |
-| `pchar` | Prints the char at the top of the stack |
-| `pstr` | Prints the string starting at the top of the stack |
-| `rotl` | Rotates the stack to the top |
-| `rotr` | Rotates the stack to the bottom |
+| `sub` | Subtract the top element of the stack from the second top element of the stack |
+| `mul` | Multiplie the second top element of the stack with the top element of the stack |
+| `div` | Divide the second top element of the stack by the top element of the stack |
+| `mod` | Compute the rest of the division of the second top element of the stack by the top element of the stack |
+| `pchar` | Print the char at the top of the stack |
+| `pstr` | Print the string starting at the top of the stack |
+| `rotl` | Rotate the stack to the top |
+| `rotr` | Rotate the stack to the bottom |
 
 ## Authors
 * Habtamu Wolde:- [GitHub](https://github.com/Habtwolde)
