@@ -10,7 +10,7 @@
 #include <ctype.h>
 
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly linked list representations of a stack (or queue)
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
@@ -48,7 +48,7 @@ typedef struct globals
 } global_t;
 
 /**
- * struct instruction_s - opcode and its function
+ * struct instruction_s - opcode and its functions
  * @opcode: the opcodes
  * @f: function to handle the opcode
  *
@@ -63,7 +63,7 @@ typedef struct instruction_s
 
 extern global_t vglo;
 
-/* opcode_instructuions*/
+/* opcode_instructuion*/
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
 void _pint(stack_t **doubly, unsigned int cline);
