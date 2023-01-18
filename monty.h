@@ -27,8 +27,8 @@ typedef struct stack_s
 
 /**
  * struct globals - global structure to use in the functions
- * @lifo: is stack or queue
- * @cont: current line
+ * @lifo: detertmine is stack or queue
+ * @cont: find current line
  * @arg: second parameter inside the current line
  * @head: doubly linked list
  * @fd: file descriptor
@@ -49,10 +49,10 @@ typedef struct globals
 
 /**
  * struct instruction_s - opcode and its function
- * @opcode: the opcode
+ * @opcode: the opcodes
  * @f: function to handle the opcode
  *
- * Description: opcode and its function
+ * Description: opcode and its functions
  * for stack, queues, LIFO, FIFO 
  */
 typedef struct instruction_s
