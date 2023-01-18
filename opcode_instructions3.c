@@ -5,7 +5,7 @@
  *
  * @doubly: head of the linked list
  * @cline: line number;
- * Return: no return
+ * Return: does not return
  */
 void _div(stack_t **doubly, unsigned int cline)
 {
@@ -37,7 +37,7 @@ void _div(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _mul - multiplies the top element to the second top element of the stack
+ * _mul - multiply the top element to the second top element of the stack
  *
  * @doubly: head of the linked list
  * @cline: line number;
@@ -102,7 +102,7 @@ void _mod(stack_t **doubly, unsigned int cline)
 	_pop(doubly, cline);
 }
 /**
- * _pchar - print the char value of the first element
+ * _pchar - print char value of the first element
  *
  * @doubly: head of the linked list
  * @cline: line number;
